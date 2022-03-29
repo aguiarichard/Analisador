@@ -10,7 +10,7 @@ let valores = []
         valores.push((Number)(num.value))
         res.innerHTML = ''
     } else {
-        window.alert('Valor ínvalido ou ja encontrado na lista')
+        window.alert('Valor ínvalido ou já encontrado na lista')
     } 
     num.value = ''
     num.focus()
@@ -48,7 +48,7 @@ let valores = []
         res.innerHTML += (`O menor valor informado foi ${menor}.<p>`)
         res.innerHTML += (`O maior valor informado foi ${maior}.<p>`)
         res.innerHTML += (`Somando todos os valores, temos ${soma}.<p>`)
-        res.innerHTML += (`A média dos valores digitados é ${media}.<p>`)
+        res.innerHTML += (`A média dos valores digitados é de ${media.toFixed(2)}.<p>`)
     }
 } 
     
